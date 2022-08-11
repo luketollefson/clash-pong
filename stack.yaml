@@ -10,3 +10,7 @@ extra-deps:
   - clashilator-0.1.2
 
   - monoidal-containers-0.6.0.1
+
+nix:
+  path: [nixpkgs=channel:nixos-22.05]
+  packages: [pkg-config SDL2]
